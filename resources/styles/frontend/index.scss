@@ -1,0 +1,30 @@
+/* ------------------------------------------------------------ *\
+    Vendor
+\* ------------------------------------------------------------ */
+
+@import './vendor/*.scss';
+
+/* ------------------------------------------------------------ *\
+    Settings
+\* ------------------------------------------------------------ */
+
+@import '~@styles/frontend.config.scss';
+@import '~@styles/shared/_variables.scss';
+@import '~@styles/shared/_editor.scss';
+@import './_variables.scss';
+@import './_sprite.scss';
+
+/* ------------------------------------------------------------ *\
+    Theme
+\* ------------------------------------------------------------ */
+
+@import '~@styles/editor';
+@import './_generic*.scss';
+@import './header.scss';
+@import './home.scss';
+@import './footer.scss';
+
+body{
+    Font-size: 16px;
+    /*background: url("~@images/bg-tablet-pattern.svg") no-repeat;*/
+}

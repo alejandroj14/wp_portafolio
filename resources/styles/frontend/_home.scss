@@ -1,0 +1,115 @@
+/*Hero section*/
+
+.home__hero{
+    background-color: #e0ebe8;
+}
+
+.home__hero-name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #45b29a;
+}
+
+.home__hero-job{
+    color: #45b29a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 21px;
+    padding: 25.2px 0;
+    font-weight: 400;
+}
+
+.home__hero-img{
+    padding-top: 50px;
+}
+
+/*About me section*/
+
+.home__aboutme-img{
+    width: 40%;
+    padding: 48px 0 0 0;
+}
+
+.home__aboutme-hi{
+    color: #45b29a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 14px 0;
+    margin: 20px 0 10px;
+}
+
+/*Skill section*/
+
+.home__skill-title h2{
+    color:#45b29a;
+    font-weight: 400;
+    font-size: 52px;
+    padding: 28px 0;
+}
+
+.home__skill-name{
+    color: #45b29a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 14px 0;
+}
+
+.home__skill-img{
+    width: 80%;
+}
+
+/*Contact section*/
+
+.home__contact-title h2{
+    color:#45b29a;
+    font-weight: 400;
+    font-size: 52px;
+    padding: 28px 0;
+}
+
+.home__contact-subtitle{
+    color: #45b29a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 14px 0;
+}
+
+.home__contact-button{
+
+    text-align: center;
+}
+
+.home__contact-button a{
+    color: #1b7f69;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    background-color: #45b29a;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/*for all*/
+
+.paragraph{
+    color: #545454;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.resized-container{
+    width: 560px;
+}
+
+.line hr{
+    border: 2px dashed #f3f2f1;
+    width: 20%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
