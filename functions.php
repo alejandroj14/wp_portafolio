@@ -52,3 +52,16 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'help
 
 // Register hooks.
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'hooks.php';
+
+//Codigo de juan
+
+/**
+* Filter the excerpt length to 20 words.
+*
+* @param int $length Excerpt length.
+* @return int (Maybe) modified excerpt length.
+*/
+function wpdocs_custom_excerpt_length( $length ) {
+	return 30;
+	}
+	add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );

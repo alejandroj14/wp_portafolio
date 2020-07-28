@@ -84,17 +84,3 @@ $contact = get_field('contact');
     </div>
 </section>
 
-<section class="home__contact">
-    <div class="container resized-container">
-        <div class="row">
-            <div class="col-12 line"> <hr> </div>
-            <div class="col-12 home__contact-title text-center"> <h2>I can help.</h2> </div>
-            <div class="col-12 home__contact-subtitle text-center"> <?php echo $contact['titulo'] ?> </div>
-            <div class="col-12 home__contact-description paragraph text-center"> <?php echo $contact['descripcion'] ?> </div>
-            <div class="col-12 home__contact-button my-5"> 
-                <a href="mailto:alejandroj36@gmail.com">message me</a>
-            </div>
-        </div>
-    </div>
-</section>
-
