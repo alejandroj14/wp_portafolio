@@ -64,11 +64,15 @@ $works = new WP_Query($args);
         <section class="works__articles">
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
-                    <div class="col-12 works__articles-img d-flex justify-content-center"> <img src="<?php echo the_post_thumbnail_url(); ?>" alt=""> </div>
+                    <div class="col-12 works__articles-img d-flex justify-content-center"> 
+                        <img src="<?php echo the_post_thumbnail_url(); ?>" alt="">
+                    </div>
                     <div class="col-12 works__articles-title text-center"> <?php echo the_title(); ?></div>
                     <div class="col-12 works__articles-category text-center"><?php echo $term_list[0]->name ?></div>
                     <div class="col-12 works__articles-description text-center"><?php echo the_excerpt(); ?></div>
-                    <div class="col-12 works__articles-button"> <a href="<?php echo the_field('url_to_work'); ?>" target="_blank">View More</a></div>
+                    <div class="col-12 works__articles-button">
+                        <a href="<?php echo the_field('url_to_work'); ?>" target="_blank">View More</a>
+                    </div>
                 </div>
             <?php  ?>
             </div>

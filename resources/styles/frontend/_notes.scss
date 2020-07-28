@@ -1,0 +1,49 @@
+/*Hero section*/
+.notes__hero{
+    background-color: #e0ebe8;
+}
+
+.notes__hero-name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    color: #45b29a;
+}
+
+.notes__description-img{
+    width: 40%;
+    padding: 48px 0 0 0;
+}
+
+.notes__description-title{
+    color: #45b29a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 14px 0;
+    margin: 20px 0 10px;
+}
+
+/*Content section*/
+
+.notes__content-title{
+    color:#29685a;
+    font-weight: 400;
+    font-size: 52px;
+    margin: 112px 0 0 0;
+}
+.notes__content-subtitle{
+    color: #45b29a;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 14px 0;
+}
+
+.notes__content-description{
+    color: #545454;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 0 150px;
+    line-height: 2;
+}
