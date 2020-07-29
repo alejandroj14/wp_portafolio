@@ -11,17 +11,17 @@ get_header();
 <section class="work__hero pt-4">
     <div class="container pt-4">
         <div class="row pt-4">
-            <div class="col-3 d-flex align-items-center">
+            <div class="col-md-3 col-sm-6 d-flex align-items-center">
                 <img class="work__hero-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/cloud.svg') ?>" alt="cloud">
             </div>
-            <div class="col-1">
-                <img class="work__hero-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
+            <div class="col-md-1 col-sm-1">
+                <img class="work__hero-img flag" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
             </div>
-            <div class="col-4 work__hero-name text-center">Work</div>
-            <div class="col-1">
-                <img class="work__hero-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
+            <div class="col-md-4 col-sm10 work__hero-name text-center">Work</div>
+            <div class="col-md-1 col-sm-1">
+                <img class="work__hero-img flag" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
             </div>
-            <div class="col-3 d-flex justify-content-end align-items-start">
+            <div class="col-md-3 col-sm-6 d-flex justify-content-end align-items-start">
                 <img class="work__hero-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/cloud.svg') ?>" alt="cloud">
             </div>
         </div>
@@ -29,7 +29,7 @@ get_header();
 </section>
 
 <section class="work__description mb-5">
-    <div class="container resized-container">
+    <div class="container">
         <div class="row">
             <div class="col-12 d-flex justify-content-center">
                 <img class="work__description-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/nature.svg') ?>" alt="Logo">
