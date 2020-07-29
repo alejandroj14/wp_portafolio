@@ -41,20 +41,16 @@ get_header();
 </section>
 
 <?php 
+
 $args = array(
     'post_type' => 'trabajos',
     'posts_per_page' => 9,
     'order' => 'ASC',
     'orderby' => 'title'
-    /*'tax_query' => array(
-        array(
-            'taxonomy' => 'categoria-trabajo',
-            'field' => 'slug',
-            'terms' => 'board' 
-    ))*/
 );
 
 $works = new WP_Query($args);
+
 ?>
 
 <?php if($works->have_posts()){ ?>
@@ -69,7 +65,7 @@ $works = new WP_Query($args);
                     </div>
                     <div class="col-12 works__articles-title text-center"> <?php echo the_title(); ?></div>
                     <div class="col-12 works__articles-category text-center"><?php echo $term_list[0]->name ?></div>
-                    <div class="col-12 works__articles-description text-center"><?php echo the_excerpt(); ?></div>
+                    <div class="col-12 works__articles-description text-center"><?php echo the_content(); ?></div>
                     <div class="col-12 works__articles-button">
                         <a href="<?php echo the_field('url_to_work'); ?>" target="_blank">View More</a>
                     </div>
@@ -78,7 +74,6 @@ $works = new WP_Query($args);
             </div>
         </section>
     <?php } 
-}
-?>
+}?>
 
 <?php get_footer(); ?>

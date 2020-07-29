@@ -23,6 +23,7 @@ $one_skill = get_field('primera_habilidad');
 $two_skill = get_field('segundad_habilidad');
 
 $contact = get_field('contact');
+
 ?>
 
 <section class="home__hero pt-4">

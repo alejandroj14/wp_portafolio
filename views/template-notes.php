@@ -1,4 +1,5 @@
 <?php 
+
 //Template name: Notes
 
 $title = get_field('notes_title');
