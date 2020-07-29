@@ -50,3 +50,10 @@ body{
     margin-top: 3em;
     margin-bottom: 3em;
 }
+
+@media (max-width: 480px) {
+    .paragraph{
+        text-align: center;
+    }
+    
+}

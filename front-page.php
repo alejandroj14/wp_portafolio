@@ -44,7 +44,7 @@ $contact = get_field('contact');
 </section>
 
 <section class="home__aboutme">
-    <div class="container resized-container">
+    <div class="container">
         <div class="row">
             <div class="col-12 d-flex justify-content-center"><img class="home__aboutme-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/cabin.svg') ?>" alt="Logo"></div>
             <div class="col-12 home__aboutme-hi text-center">Hi</div>
@@ -66,12 +66,12 @@ $contact = get_field('contact');
                     <p class="paragraph"><?php echo $one_skill['descripcion'] ?></p>
                 </div>
             </div>
-            <div class="col-6 d-flex justify-content-center">
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center">
                 <img class="home__skill-img" src="<?php echo $one_skill['imagen']['url'] ?>" alt="Logo">
             </div>
         </div>
         <div class="row">
-            <div class="col-6 d-flex justify-content-center">
+            <div class="col-md-6 col-sm-12 d-flex justify-content-center change_order">
                 <img class="home__skill-img" src="<?php echo $two_skill['imagen']['url'] ?>" alt="Logo">
             </div>
             <div class="col-lg-6 col-md-12 d-flex align-items-center">

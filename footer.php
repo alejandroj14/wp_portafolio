@@ -9,7 +9,7 @@
 
 ?>
 <section class="footer__contact">
-    <div class="container resized-container">
+    <div class="container">
         <div class="row">
             <div class="col-12 line"> <hr> </div>
             <div class="col-12 footer__contact-title text-center"> <h2>I can help.</h2> </div>

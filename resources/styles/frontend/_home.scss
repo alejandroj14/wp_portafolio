@@ -58,3 +58,26 @@
 .home__skill-img{
     width: 80%;
 }
+
+/*Responive*/
+@media (max-width: 480px) {
+    
+    /*hero section*/
+    .home__hero-img{
+        width: 100%;
+    }
+
+    .home__skill-name{
+        text-align: center;
+    }
+
+    /*skill section*/
+
+    .change_order{
+        order: 2;
+    }
+
+    .home__skill-img{
+        width: 100%;
+    }
+}
