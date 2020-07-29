@@ -13,17 +13,17 @@ get_header();
 <section class="notes__hero pt-4">
     <div class="container pt-4">
         <div class="row pt-4">
-            <div class="col-3 d-flex align-items-center">
+            <div class="col-md-3 col-sm-6 d-flex align-items-center">
                 <img class="notes__hero-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/cloud.svg') ?>" alt="cloud">
             </div>
-            <div class="col-1">
-                <img class="notes__hero-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
+            <div class="col-md-1">
+                <img class="notes__hero-img flag" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
             </div>
-            <div class="col-4 notes__hero-name text-center">Notes</div>
-            <div class="col-1">
-                <img class="notes__hero-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
+            <div class="col-md-4 col-sm-12 notes__hero-name text-center">Notes</div>
+            <div class="col-md-1">
+                <img class="notes__hero-img flag" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
             </div>
-            <div class="col-3 d-flex justify-content-end align-items-start">
+            <div class="col-md-3 col-sm-6 d-flex justify-content-end align-items-start">
                 <img class="notes__hero-img" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/cloud.svg') ?>" alt="cloud">
             </div>
         </div>

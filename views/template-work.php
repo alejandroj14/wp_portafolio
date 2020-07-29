@@ -17,7 +17,7 @@ get_header();
             <div class="col-md-1 col-sm-1">
                 <img class="work__hero-img flag" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
             </div>
-            <div class="col-md-4 col-sm10 work__hero-name text-center">Work</div>
+            <div class="col-md-4 col-sm-12 work__hero-name text-center">Work</div>
             <div class="col-md-1 col-sm-1">
                 <img class="work__hero-img flag" src="<?php echo \MyApp::core()->assets()->getAssetUrl('images/flag.svg') ?>" alt="cloud">
             </div>

@@ -44,6 +44,27 @@
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     font-weight: 500;
-    padding: 0 150px;
+    padding: 0 200px;
     line-height: 2;
+}
+
+/*responsive*/
+
+@media (max-width: 480px) {
+
+    /*Hero section*/
+
+    .flag{
+        display: none;
+    }
+
+    /*Content section*/
+
+    .notes__content-img img{
+        width: 100%;
+    }
+
+    .notes__content-description{
+        padding: 0 15px;
+    }
 }
